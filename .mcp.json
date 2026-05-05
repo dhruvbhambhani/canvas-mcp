@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "canvas": {
+      "command": "python",
+      "args": ["C:\\Users\\dhruv\\Documents\\mcp_canvas\\server.py"]
+    }
+  }
+}

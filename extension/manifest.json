@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas MCP",
+  "version": "1.0.0",
+  "description": "Connects Canvas LMS to your local canvas-mcp server for AI-powered grade tracking and study tools.",
+
+  "permissions": [
+    "storage",
+    "alarms",
+    "cookies"
+  ],
+
+  "host_permissions": [
+    "https://*.instructure.com/*",
+    "https://canvas.tamu.edu/*",
+    "http://localhost:3001/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Canvas MCP"
+  }
+}
